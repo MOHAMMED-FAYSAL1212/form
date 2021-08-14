@@ -1,0 +1,281 @@
+body, h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+.header-section .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+   
+}
+.header-section span{
+    display: inline-block;
+    height: 45px;
+    width: 38px;
+    background: #627Bdf;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+}
+.header-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 99;
+}
+.h-menu .nav-item{
+  padding-left: 20px;
+}
+.h-menu .nav-item a{
+    color: black;
+}
+/*  slider sectiion*/
+.slider-section{
+   background-image: url(./image/watch.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ padding: 200px 0;
+ position: relative;
+ z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.336);
+    z-index: -1;
+}
+.slider-section h4{
+    margin-bottom: 40px;
+
+}
+.slider-section h2{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.f-section .form-control{
+  padding: 15px 17px;
+}
+.f-section .btn{
+    padding: 8px 17px;
+font-size: 30px; 
+transition: .5s;
+
+}
+.f-section .btn:hover{
+    border: 2px solid blue;
+    color: blue;
+    background: white;
+}
+
+/* About-Section */
+.about-section{
+    background: rgba(128, 128, 128, 0.164);
+}
+.about-section img{
+    width: 300px;
+    height: 400px;
+}
+.about-section .text{
+    margin-top: 100px;
+}
+.about-section h1{
+    font-size: 50px;
+}
+.about-section p{
+    font-size: 20px;
+}
+
+/* .feature-section */
+.feature-item{
+    height: 250px;
+    box-shadow: 5px 5px 30px 5px rgba(64, 87, 191, 0.24);
+
+}
+.img-left{
+    width: 40%;
+   overflow: hidden;
+   border-radius: 5px 0 0 5px;
+}
+.img-left img{
+   
+    height: 100%;
+    width: auto;
+    /* max-width: inherit; */
+    position: relative;
+    left: -100px;
+}
+.text-item-right{
+    width: 60%;
+    padding: 20px;
+
+}
+
+/* portfolio-section */
+ .portfolio-section h1{
+     font-size: 50px;
+     font-weight: 400;
+ }
+.portfolio-image img{
+    width: 400px;
+    height: 250px;
+}
+.portfolio-image a{
+    position: relative;
+    display: block;
+ 
+}
+.portfolio-image a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 97%;
+    background: rgba(0, 0, 255, 0.514); 
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-image:hover a::after{
+opacity: 1;
+visibility: visible;
+}
+
+/* p-section */
+
+.p-section{
+    background: rgba(128, 128, 128, 0.171);
+    padding: 50px;
+
+}
+
+.prizing-text h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.prizing-text p{
+    font-size: 25px;
+    
+}
+.prizing-item ul{
+    list-style: none;
+}
+.prizing-item{
+    background: white;
+    box-shadow: 5px 5px 30px 5px rgba(64, 87, 191,0.2);
+    padding: 50px;
+} 
+.prizing-item h2{
+    margin-left: 40px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+.prizing-item h5{
+    margin-left: 40px;
+}
+.prizing-item ul li span{
+    width: 30px;
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.664);
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.prizing-item ul li{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.prizing-button button{
+    border: 2px solid;
+    font-weight: bold;
+    margin-top:30px;
+    padding: 10px 26px;
+    box-shadow: 5px 5px 30px 5px rgba(64, 87, 191, 0.144);
+}
+
+/* testimonial section */
+
+.auther-info{
+    width: 250px;
+    margin: auto;
+}
+
+.auther-info img{
+    width: 85px;
+}
+.user-details{
+    position: relative;
+    top: 15px ;
+    text-align: left;
+}
+.test span{
+    
+                font-size: 80px;
+                color: rgba(128, 128, 128, 0.349);
+  
+}
+
+/* about-section */
+
+
+.about-item .card img{
+width: 90px;
+height: auto;
+margin-top: -50px;
+margin-left: 15px;
+
+}
+.about-item{
+    margin-top: 120px;
+}
+.about-item .card-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-item .card-subtitle{
+    font-size: 25px;
+    font-weight: 500;
+}
+.about-item p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.ancor a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* contact-section */
+.c-section h1{
+    font-size: 50px;
+    font-weight: 500;
+    }
+    /* fasion-section */
+    .fashion-button a{
+        display: inline-block;
+        padding: 7px 35px;
+        font-weight: bold;
+        border: 2px solid;
+    }
+    .fashion-button .button1{
+        margin-right: 17px;
+    }
+    .fashion-img img{
+        width: 520px;
+    }
+    footer{
+        background: rgba(128, 128, 128, 0.74);
+        
+    }
+    
